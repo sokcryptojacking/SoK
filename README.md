@@ -1,0 +1,2 @@
+# SoK
+SoK: Cryptojacking Malware
