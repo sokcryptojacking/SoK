@@ -5,7 +5,7 @@ This repository contains the cryptojacking malware dataset and relevant informat
 
 ## Dataset 
 
-The datasets (In-browser.csv, Host-based.csv) are in the CSV format. The columns show the first submission year, file type, and hash value of the samples in the given order.
+The datasets (In-browser.csv, Host-based.csv) containing the hash values of the cryptojacking samples are in the CSV format. We only share the hash values of the samples as the raw samples allocate a huge volume (≈100GB). The columns in CSV files show the first submission year, file type, and hash value of the samples in the given order. 
 
 We made our queries on the entire VirusTotal database (Jan 2018-May 2020) that can be accessed via VirusTotal academic API. Then, we checked if the result has the keyword "Miner" somewhere to include in our database.
 
