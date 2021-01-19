@@ -13,9 +13,22 @@ We also put the script (script.sh) for downloading the sources from the VirusTot
 
 The file type of the samples can be used to decide whether the sample is in-browser or host-based cryptojacking. If the sample is in the HTML format, the sample is called in-browser cryptojacking, while other formats (e.g., exe, dll, C/C++) are called host-based cryptojacking malware samples. 
 
-### Analysis
+### The use of samples in our paper:  
 
-For our paper, we used the dataset to verify the known techniques, for mostly in-browser cryptojacking malware. For example, we used a python script (keyword-search.py) to find the samples from spesific service providers (e.g., Coinhive).
+For our paper, we used the dataset to verify some known techniques and behaviors of cryptojacking malware. Particularly, we used the dataset for the following purposes:
+
+- To understand the lifecycle of in-browser and host-based cryptojacking
+- To verify the service provider list given in other studies and as a source of cryptojacking malware
+- To verify the use of mobile devices 
+- To verify that Monero is the main target currency used by cryptojackings
+- To find the other cryptocurrencies used by cryptojacking malware
+- To verify that the existence of a CPU limiting technique for the obfuscation
+
+### Reproducibility of our analysis:
+
+1. Download the hash values of the samples
+2. Modify "script.sh" with your own credentials and run it to download the raw samples from VirusTotal. 
+3. Run the keyword-search.py to find the samples of interest. For example, one can run the "Coinhive" to find the Coinhive service provider's samples. Similarly, one can run "XMR" to find the samples using Monero as a target cryptocurrency. 
 
 
 ### Contact 
