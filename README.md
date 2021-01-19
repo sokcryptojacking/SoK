@@ -15,7 +15,7 @@ The file type of the samples can be used to decide whether the sample is in-brow
 
 ### Analysis
 
-For our paper, we used the dataset to verify the known techniques, for mostly in-browser cryptojacking malware. For example, we used a python script (keyword-search.py) to find the samples and their count for given keywords (e.g., Coinhive).
+For our paper, we used the dataset to verify the known techniques, for mostly in-browser cryptojacking malware. For example, we used a python script (keyword-search.py) to find the samples from spesific service providers (e.g., Coinhive).
 
 
 ### Contact 
