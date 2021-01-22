@@ -13,6 +13,7 @@ We also put the script (script.sh) for downloading the sources from the VirusTot
 
 The file type of the samples can be used to decide whether the sample is in-browser or host-based cryptojacking. If the sample is in the HTML format, the sample is called in-browser cryptojacking, while other formats (e.g., exe, dll, C/C++) are called host-based cryptojacking malware samples. 
 
+We are still working on our research and we continue to add more samples as we have more data available. We add our updated in-browser cryptojacking dataset which contains 23320 domains that contains in-browser cryptojacking malware.
 ### The use of samples in our paper:  
 
 For our paper, we used the dataset to verify some known techniques and behaviors of cryptojacking malware. Particularly, we used the dataset for the following purposes:
