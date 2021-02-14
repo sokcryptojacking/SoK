@@ -3,7 +3,7 @@
 
 This repository contains the cryptojacking malware dataset and relevant information for the "SoK: Cryptojacking Malware" paper. 
 
-## VT Dataset 
+## 1. VT Dataset 
 
 VT dataset consists of the hash values of the 20200 cryptojacking samples in the CSV format. 
 
@@ -16,7 +16,7 @@ We made our queries on the entire VirusTotal database that can be accessed via V
 2. You can [search for hashes of the samples on the VT interface](https://www.virustotal.com/intelligence/#search-for-hashes) or [download the samples](https://www.virustotal.com/intelligence/downloader/) with your own credentials. 
 3. Run the keyword-search.py to find the samples of interest. For example, one can run the "Coinhive" to find the Coinhive service provider's samples. Similarly, one can run "XMR" to find the samples using Monero as a target cryptocurrency. 
 
-## PublicWWW Dataset 
+## 2. PublicWWW Dataset 
 
 PublicWWW dataset consists of two domain lists and two keyword lists. 
  
