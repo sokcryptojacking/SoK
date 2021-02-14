@@ -20,14 +20,14 @@ We made our queries on the entire VirusTotal database that can be accessed via V
 
 PublicWWW dataset consists of two domain lists and two keyword lists. 
  
-1- "known_service_provider_domain_list.csv": This file contains the domains with the publicly known service providers. The list also includes service provider name for each domain and associated keyword. Please note that some of the domain use multiple service providers. 
-2- "unknown_service_provider_domain_list.csv": This file contains the domains with unknown service providers. The second column includes the keyword that is used to identify this domain.
-3- "service provider keywords.csv": This file contains the keywords that can be used to uniquely identify the 14 service providers.
-4- "unknown service provider keywords.csv": This file contains the keywords that can be used to identify the cryptominer but the associated service provider is unknown.
+1. "known_service_provider_domain_list.csv": This file contains the domains with the publicly known service providers. The list also includes service provider name for each domain and associated keyword. Please note that some of the domain use multiple service providers. 
+2. "unknown_service_provider_domain_list.csv": This file contains the domains with unknown service providers. The second column includes the keyword that is used to identify this domain.
+3. "service provider keywords.csv": This file contains the keywords that can be used to uniquely identify the 14 service providers.
+4. "unknown service provider keywords.csv": This file contains the keywords that can be used to identify the cryptominer but the associated service provider is unknown.
 
 ### Reproducibility of PublicWW Dataset:
 
-In order to reproduce the dataset and experiments, one can either use the domain lists we released or can download the keyword lists and then make a query on [PublicWWW's website] (https://publicwww.com/). Finally, we also release the crawler we used to download the samples.
+In order to reproduce the dataset and experiments, one can either use the domain lists we released or can download the keyword lists and then make a query on [PublicWWW's website](https://publicwww.com/). Finally, we also release the crawler we used to download the samples.
 
 
 ### The use of samples in our paper:  
