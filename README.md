@@ -5,10 +5,9 @@ This repository contains the cryptojacking malware dataset and relevant informat
 
 ## 1. VT Dataset 
 
-VT dataset consists of the hash values of the 20200 cryptojacking samples in the CSV format. 
+The VT dataset consists of the hash values of the 20200 cryptojacking samples in the CSV format. 
 
-We made our queries on the entire VirusTotal database that can be accessed via VirusTotal academic API. Then, we performed the case-insensive search of the keyword "miner" on the VT scan reports of the samples in our database.
-
+We made our queries on the entire VirusTotal database that can be accessed via VirusTotal academic API. Then, we performed the case-insensitive search of the keyword "miner" on the samples' VT scan reports in our database.
 
 ### Reproducibility of VT Dataset:
 
@@ -18,12 +17,12 @@ We made our queries on the entire VirusTotal database that can be accessed via V
 
 ## 2. PublicWWW Dataset 
 
-PublicWWW dataset consists of two domain lists and two keyword lists. 
+The PublicWWW dataset consists of two domain lists and two keyword lists. 
  
-1. "known_service_provider_domain_list.csv": This file contains the domains with the publicly known service providers. The list also includes service provider name for each domain and associated keyword. Please note that some of the domain use multiple service providers. 
+1. "known_service_provider_domain_list.csv": This file contains the domains with the publicly known service providers. The list also includes the service provider name for each domain and associated keyword. Please note that some of the domain use multiple service providers. 
 2. "unknown_service_provider_domain_list.csv": This file contains the domains with unknown service providers. The second column includes the keyword that is used to identify this domain.
-3. "service provider keywords.csv": This file contains the keywords that can be used to uniquely identify the 14 service providers.
-4. "unknown service provider keywords.csv": This file contains the keywords that can be used to identify the cryptominer but the associated service provider is unknown.
+3. "service provider keywords.csv": This file contains the keywords that can be used to identify the 14 service providers uniquely.
+4. "unknown service provider keywords.csv": This file contains the keywords that can be used to identify the cryptominer, but the associated service provider is unknown.
 
 ### Reproducibility of PublicWW Dataset:
 
@@ -41,6 +40,9 @@ For our paper, we used the dataset to verify some known techniques and behaviors
 - To find the other cryptocurrencies used by cryptojacking malware
 - To verify that the existence of a CPU limiting technique for the obfuscation
 
+## 3. Major Instances
+
+This folder contains the major cryptojacking attack instances that we used in the paper.
 
 ### Contact 
 
