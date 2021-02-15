@@ -42,7 +42,7 @@ For our paper, we used the dataset to verify some known techniques and behaviors
 
 ## 3. Major Instances
 
-This folder contains the major cryptojacking attack instances that we used in the paper.
+This folder (Major_instances_links.xlsx) contains the major cryptojacking attack instances that we used in the paper.
 
 ### Contact 
 
