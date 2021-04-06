@@ -1,7 +1,7 @@
 
 # SoK: Cryptojacking Malware
 
-This repository contains the cryptojacking malware dataset and relevant information for the "SoK: Cryptojacking Malware" paper. 
+This repository contains the cryptojacking malware dataset and relevant information for the ("SoK: Cryptojacking Malware" paper)[https://arxiv.org/pdf/2103.03851]. 
 
 ## 1. VT Dataset 
 
@@ -43,6 +43,21 @@ For our paper, we used the dataset to verify some known techniques and behaviors
 ## 3. Major Instances
 
 This folder (Major_instances_links.xlsx) contains the major cryptojacking attack instances that we used in the paper.
+
+### Citation
+
+```
+@misc{tekiner2021,
+ AUTHOR = {Amin Kharraz and Zane Ma and Paul Murley and Charles Lever and Joshua Mason and Andrew Miller and Manos Antonakakis and Michael Bailey },
+ Ege Tekiner and Abbas Acar and A. Selcuk Uluagac and Engin Kirda and Ali Aydin Selcuk}
+ TITLE = {SoK: Cryptojacking Malware},
+ BOOKTITLE = {6th IEEE European Symposium on Security and Privacy},
+ ADDRESS = {Virtual},
+ MONTH = {September},
+ DAY = {6--10},
+ YEAR = {2021},
+}
+```
 
 ### Contact 
 
