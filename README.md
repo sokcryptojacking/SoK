@@ -54,7 +54,7 @@ This folder (Major_instances_links.xlsx) contains the major cryptojacking attack
  ADDRESS = {Virtual},
  MONTH = {September},
  DAY = {6--10},
- YEAR = {2021},
+ YEAR = {2021}
 }
 ```
 
