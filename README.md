@@ -1,7 +1,7 @@
 
 # SoK: Cryptojacking Malware
 
-This repository contains the cryptojacking malware dataset and relevant information for the ("SoK: Cryptojacking Malware" paper)[https://arxiv.org/pdf/2103.03851]. 
+This repository contains the cryptojacking malware dataset and relevant information for the ["SoK: Cryptojacking Malware" paper](https://arxiv.org/pdf/2103.03851). 
 
 ## 1. VT Dataset 
 
