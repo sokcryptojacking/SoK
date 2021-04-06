@@ -48,8 +48,7 @@ This folder (Major_instances_links.xlsx) contains the major cryptojacking attack
 
 ```
 @misc{tekiner2021,
- AUTHOR = {Amin Kharraz and Zane Ma and Paul Murley and Charles Lever and Joshua Mason and Andrew Miller and Manos Antonakakis and Michael Bailey },
- Ege Tekiner and Abbas Acar and A. Selcuk Uluagac and Engin Kirda and Ali Aydin Selcuk}
+ AUTHOR = {Ege Tekiner and Abbas Acar and A. Selcuk Uluagac and Engin Kirda and Ali Aydin Selcuk},
  TITLE = {SoK: Cryptojacking Malware},
  BOOKTITLE = {6th IEEE European Symposium on Security and Privacy},
  ADDRESS = {Virtual},
