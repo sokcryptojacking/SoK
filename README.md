@@ -47,7 +47,7 @@ This folder (Major_instances_links.xlsx) contains the major cryptojacking attack
 ### Citation
 
 ```
-@misc{tekiner2021,
+@inproceedings{tekiner2021,
  AUTHOR = {Ege Tekiner and Abbas Acar and A. Selcuk Uluagac and Engin Kirda and Ali Aydin Selcuk},
  TITLE = {SoK: Cryptojacking Malware},
  BOOKTITLE = {6th IEEE European Symposium on Security and Privacy},
